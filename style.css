@@ -53,9 +53,13 @@ ul { /*target unordered list (the links at the type) by type*/
 
 .signup { /*targets the sign up button at the top of the page by class */
   width: 80px; /* changes the width of the signup button to 80px */
-
 }
 
+.main-image { /* target the main image at the top of the page by class */
+  background-color: black;
+  color: white; 
+
+}
 
 
 
