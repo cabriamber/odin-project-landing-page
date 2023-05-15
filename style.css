@@ -10,9 +10,9 @@ body {
 
 .header{ /*target the header by class. Header contains logo, and list of links */
   display: flex; /*change the display type for the header container to flex. Header has logo and link list as items*/
-  height: 50px; /* set the height of the header to 80px */
+  height: 70px; /* set the height of the header to 70px */
   background-color: lightgrey; /*change the background color of the header to grey */
-  align-items: center;
+  align-items: start; /* cause the items in the header container to push to the beginning of the secondary, vertical axis */
   padding-right: 60px; /* create 60 px of space between the items in the header and its right boundary */
 }
 
@@ -24,15 +24,14 @@ body {
 ul { /*target unordered list (the links at the type) by type*/
   list-style-type: none; /*remove the bullets from the list elements */
   display: flex; /* change the display type for the list to flex*/
-  gap: 10px; /* place 10 px of space between each item in the list*/
+  gap: 15px; /* place 10 px of space between each item in the list*/
   margin-left: auto; /* tell the list items to take up all available space on the left of them, as the screen size changes.*/
-  margin-right: 10px; /* tell the list items to leave 10 px of space between them and the right size of the screen, regardless of screen size*/
 }
 
 .important-content { /*target the important content container by class. This contains the subcontainer maintext which contains the main heading, subtext, and sign up button, and the subcontainer for the placeholder image x. */
   display: flex; /* change the display type for all items in the important content container to flex */
   justify-content: space-between; /* cause the space around style of display along the main, horizontal axis of the important content container. */
-  align-items: center; /* cause the items in the important content container to center themselves along the secondary axis, vertical. */
+  align-items: end; /* cause the items in the important content container to push to the end of the secondary, vertical axis. */
   padding-left: 60px; /* heading and subtext to have 60px of padding on their left, aligning them with the logo vertically. */
   padding-right: 60px; /* create 60 px of padding between the items in the important content container and the right edge. */
 
@@ -42,25 +41,33 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the dispaly type for the maintext container to flex */
   flex-direction: column; /*flip the main and secondary axis, so the main axis is now vertical. */ 
   text-align: left; /* cause the text to align itself with the left side of the container */
+  padding: 0px; /*remove padding from the items in the maintext container */
 }
 
 .subtext1,
 .heading1 { /*target the main heading and subtext by class */
+  margin: 0;
   display: flex; /* change the display type to flex */
   flex-wrap: wrap; /* cause the text to wrap */
   width: 220px; /* set the width to 220px */
 }
 
+
 .signup { /*targets the sign up button at the top of the page by class */
   width: 80px; /* changes the width of the signup button to 80px */
+  margin-top: 6px; /* add 6 pixels of space between the subtext and the signup button */
 }
 
 .main-image { /* target the main image at the top of the page by class */
-  background-color: black;
-  color: white; 
-  width: 300px; 
-  height: 200px; 
-
+  background-color: white;
+  color: black; 
+  width: 250px; 
+  height: 180px; 
+  display: flex; /* change the display type for the main image placeholder to flex */
+  justify-content: center; /* cause the items (the text) inside the image placeholder (the box) to be centered along the main (horizontal) axis */
+  align-items: center; /* cause the items inside the image placeholder container to be centered along the secondary axis (vertical) */
+  border-style: solid; /* add a solid border around the image placeholder */
+  border-color: black; /* color the border black */
 }
 
 
