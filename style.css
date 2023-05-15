@@ -58,6 +58,8 @@ ul { /*target unordered list (the links at the type) by type*/
 .main-image { /* target the main image at the top of the page by class */
   background-color: black;
   color: white; 
+  width: 300px; 
+  height: 200px; 
 
 }
 
