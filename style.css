@@ -70,8 +70,30 @@ ul { /*target unordered list (the links at the type) by type*/
   border-color: black; /* color the border black */
 }
 
+.container { /* target the 'container' container by class. 'container' is the part of bar 2 that contains all the images and their subtext */
+  display: flex; 
+}
+
+.card { /* target the card containers by class */
+  display: flex; /* change the display type to flex */
+  flex-direction: column; /* flip the secondary axis and main axis, so the main axis is the vertical axis */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image { /* target each image placeholder and caption by class */
+  display: flex; /* changes the display type for the card class of container to flex */
+  justify-content: center; /* center the x in the image placeholder */
+  align-items: center; /* center the x in the image placeholder */
+  padding: 30px; /* add 30px of padding to the image placeholders */
+  background-color: white; 
+  border-style: solid; /* add a solid border */
+  margin: 20px; 
+  margin-bottom: 0px; 
 
 
+
+}
 
 .bar1 {/*target bar1 by class */
   background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
