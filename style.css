@@ -8,11 +8,12 @@ body {
   flex: 1;
 }
 
-.header{
+.header{ /*target the header by class. Header contains logo, and list of links */
   display: flex; /*change the display type for the header container to flex. Header has logo and link list as items*/
   height: 50px; /* set the height of the header to 80px */
   background-color: lightgrey; /*change the background color of the header to grey */
   align-items: center;
+  padding-right: 60px; /* create 60 px of space between the items in the header and its right boundary */
 }
 
 .logo {/*target the logo by class */
@@ -28,24 +29,31 @@ ul { /*target unordered list (the links at the type) by type*/
   margin-right: 10px; /* tell the list items to leave 10 px of space between them and the right size of the screen, regardless of screen size*/
 }
 
-.important-content { /*target the important content container by class. This contains the subcontainer maintext which contains the main heading and subtext, and the subcontainer for the placeholder image x. */
+.important-content { /*target the important content container by class. This contains the subcontainer maintext which contains the main heading, subtext, and sign up button, and the subcontainer for the placeholder image x. */
   display: flex; /* change the display type for all items in the important content container to flex */
   justify-content: space-between; /* cause the space around style of display along the main, horizontal axis of the important content container. */
   align-items: center; /* cause the items in the important content container to center themselves along the secondary axis, vertical. */
-  padding-left: 60px; 
+  padding-left: 60px; /* heading and subtext to have 60px of padding on their left, aligning them with the logo vertically. */
+  padding-right: 60px; /* create 60 px of padding between the items in the important content container and the right edge. */
+
 }
 
-.maintext { /* target the maintext container by class. This includes the main heading and subtitle. */
+.maintext { /* target the maintext container by class. This includes the main heading, subtitle and sign up button. */
   display: flex; /* change the dispaly type for the maintext container to flex */
   flex-direction: column; /*flip the main and secondary axis, so the main axis is now vertical. */ 
   text-align: left; /* cause the text to align itself with the left side of the container */
 }
 
 .subtext1,
-.heading1 { /*target the main subtext by class */
-  display: flex; 
-  flex-wrap: wrap; 
-  width: 220px; 
+.heading1 { /*target the main heading and subtext by class */
+  display: flex; /* change the display type to flex */
+  flex-wrap: wrap; /* cause the text to wrap */
+  width: 220px; /* set the width to 220px */
+}
+
+.signup { /*targets the sign up button at the top of the page by class */
+  width: 80px; /* changes the width of the signup button to 80px */
+
 }
 
 
