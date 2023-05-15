@@ -1,0 +1,54 @@
+body {
+  display: flex; /* change the display type for the entire body to flex. */
+  flex-direction: column; /* flip the main axis to vertical*/
+  margin: 0; /*set the margin of the entire page to 0*/
+  min-height: 100vh;/*make the display take up 100% of the screen size*/
+  justify-content: space-between; /*cause all flex items in the body container to push towards the edges of the main, in this case vertical axis*/
+  text-align: center; /* center the text on the entire page*/
+  flex: 1;
+}
+
+.header{
+  display: flex; /*change the display type for the header container to flex. Header has logo and link list as items*/
+  height: 50px; /* set the height of the header to 80px */
+  background-color: lightgrey; /*change the background color of the header to grey */
+  align-items: center;
+}
+
+.logo {/*target the logo by class */
+  padding: 15px; /* tell the logo to leave 15 pixels of space between itself and the edges of its container */
+  padding-left: 60px; /*causes 60 px of padding on the left between the logo and the edge of its container. */
+}
+
+ul { /*target unordered list (the links at the type) by type*/
+  list-style-type: none; /*remove the bullets from the list elements */
+  display: flex; /* change the display type for the list to flex*/
+  gap: 10px; /* place 10 px of space between each item in the list*/
+  margin-left: auto; /* tell the list items to take up all available space on the left of them, as the screen size changes.*/
+  margin-right: 10px; /* tell the list items to leave 10 px of space between them and the right size of the screen, regardless of screen size*/
+}
+
+.important-content { /*target the important content container by class. This contains the subcontainer maintext which contains the main heading and subtext, and the subcontainer for the placeholder image x. */
+  display: flex; /* change the display type for all items in the important content container to flex */
+  justify-content: space-between; /* cause the space around style of display along the main, horizontal axis of the important content container. */
+  align-items: center; /* cause the items in the important content container to center themselves along the secondary axis, vertical. */
+  padding-left: 50px; 
+}
+
+
+
+
+
+.bar1 {/*target bar1 by class */
+  background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
+  height: 300px; /* tell bar1 to take up 300 pixels of vertical space*/
+}
+.bar2 {
+  background-color: greenyellow;
+}
+.bar3 {
+  background-color: bisque;
+}
+.bar4 {
+  background-color: lightpink;
+}
