@@ -32,7 +32,20 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the display type for all items in the important content container to flex */
   justify-content: space-between; /* cause the space around style of display along the main, horizontal axis of the important content container. */
   align-items: center; /* cause the items in the important content container to center themselves along the secondary axis, vertical. */
-  padding-left: 50px; 
+  padding-left: 60px; 
+}
+
+.maintext { /* target the maintext container by class. This includes the main heading and subtitle. */
+  display: flex; /* change the dispaly type for the maintext container to flex */
+  flex-direction: column; /*flip the main and secondary axis, so the main axis is now vertical. */ 
+  text-align: left; /* cause the text to align itself with the left side of the container */
+}
+
+.subtext1,
+.heading1 { /*target the main subtext by class */
+  display: flex; 
+  flex-wrap: wrap; 
+  width: 220px; 
 }
 
 
