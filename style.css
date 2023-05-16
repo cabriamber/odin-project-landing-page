@@ -10,9 +10,11 @@ body {
 
 /*----The section below edits the layout of the top section of the page, bar1---- */
 
+
 .bar1 {/*target bar1 by class */
   background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
   height: 300px; /* tell bar1 to take up 300 pixels of vertical space*/
+  background-color: #1F2937;
 }
 
 .header{ /*target the header by class. Header contains logo, and list of links */
@@ -21,6 +23,7 @@ body {
   background-color: lightgrey; /*change the background color of the header to grey */
   align-items: start; /* cause the items in the header container to push to the beginning of the secondary, vertical axis */
   padding-right: 60px; /* create 60 px of space between the items in the header and its right boundary */
+  background-color: #1F2937;
 }
 
 .logo {/*target the logo by class */
@@ -176,5 +179,5 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the display type for bar5 to flex*/
   justify-content: center; /* cause the content to center itself along the main axis, horizontal */
   align-items: center; /* cause the content to center itself along the secondary axis, vertical */
-  font-size: 12px; 
+  font-size: 12px; /* decrease the font size of the footer text */
 }
