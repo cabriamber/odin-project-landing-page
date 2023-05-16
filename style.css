@@ -133,8 +133,19 @@ ul { /*target unordered list (the links at the type) by type*/
   padding-right: 50px; /* add 50 px of padding between the quote credit and the edge of its container. */
 }
 
+/* ---- The section below edits bar4, the fourth row of content on the page ---- */
 
 
 .bar4 {
   background-color: lightpink;
+  display: flex; /* change the display type for the bar4 container to flex */
+  justify-content: center; /* cause the content to center itself horizontally (along the main axis) */
+  align-items: center; /* cause the content in bar4 to center itself vertically (along the secondary axis) */
+  height: 200px; 
 }
+
+.box { /*target the box of content inside bar4 by class */
+  
+
+}
+
