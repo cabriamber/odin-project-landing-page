@@ -6,6 +6,7 @@ body {
   justify-content: space-between; /*cause all flex items in the body container to push towards the edges of the main, in this case vertical axis*/
   text-align: center; /* center the text on the entire page*/
   flex: 1;
+  background-color: #F9FAF8; 
 }
 
 /*----The section below edits the layout of the top section of the page, bar1---- */
@@ -91,7 +92,7 @@ ul { /*target unordered list (the links at the type) by type*/
 .main-image { /* target the main image at the top of the page by class */
   background-color:#E5E7EB;
   color: black;
-  width: 250px; 
+  width: 300px; 
   height: 180px; 
   display: flex; /* change the display type for the main image placeholder to flex */
   justify-content: center; /* cause the items (the text) inside the image placeholder (the box) to be centered along the main (horizontal) axis */
@@ -122,14 +123,16 @@ ul { /*target unordered list (the links at the type) by type*/
   padding: 30px; /* add 30px of padding to the image placeholders */
   background-color: white; 
   border-style: solid; /* add a solid border */
+  border-color:  #3882F6;
   margin: 20px; 
   margin-bottom: 0px; 
   border-radius: 10px; /*round the corners of the image placeholder boxes*/
+
 }
 
 
 .bar2 {
-  background-color: greenyellow;
+  background-color: #F9FAF8;
   padding: 10px; /* cause there to be 10 px of space between all the items in bar2 and the edges of the container */
   padding-bottom: 40px; /* add 40 pixels of padding between the content in the bar2 container and the edge of the container */
 }
@@ -176,15 +179,16 @@ ul { /*target unordered list (the links at the type) by type*/
   justify-content: center; /* cause the content to center itself horizontally (along the main axis) */
   align-items: center; /* cause the content in bar4 to center itself vertically (along the secondary axis) */
   height: 180px; 
+  background-color: #F9FAF8;
 }
 
 .box { /*target the box of content inside bar4 by class */
-  background-color: aliceblue; /* change the color of the box to make its scope more visible. */
   display: flex; /* change the display type for box to flex*/
   align-items: center;
   padding: 30px; /* add 30 px of padding around every item in box and the edges of the container */
   border-radius: 10px; /* round the corners of the call to action box */
-
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 
 .smaller-box { /*target the call to action and subtext by class */
