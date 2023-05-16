@@ -180,4 +180,6 @@ ul { /*target unordered list (the links at the type) by type*/
   justify-content: center; /* cause the content to center itself along the main axis, horizontal */
   align-items: center; /* cause the content to center itself along the secondary axis, vertical */
   font-size: 12px; /* decrease the font size of the footer text */
+  background-color: #1F2937;
+  color: white; 
 }
