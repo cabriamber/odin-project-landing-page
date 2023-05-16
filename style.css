@@ -8,7 +8,7 @@ body {
   flex: 1;
 }
 
-/*The section below edits the layout of the top section of the page, bar1 */
+/*----The section below edits the layout of the top section of the page, bar1---- */
 
 .bar1 {/*target bar1 by class */
   background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
@@ -111,10 +111,30 @@ ul { /*target unordered list (the links at the type) by type*/
 
 }
 
-/* The section below edits bar3, the second row of information on the page */
+/* ----The section below edits bar3, the second row of information on the page ----*/
 .bar3 {
   background-color: bisque;
+  display: flex; /* change the display type for the bar3 row to flex */
+  flex-direction: column; /* flip the main and secondary axis, so the vertical axis is the main axis. */
+  margin-left: auto; 
+  margin-right: auto; /* change the left and right margin value to auto, so the quote automatically centers itself on the screen horizontally and allows the extra space to split evenly and stay empty. */
 }
+
+.quote { /*target the quote on the third bar of information by class */
+  width: 400px; 
+  font-size: 20px;
+  padding: 50px; /* add 50 px of padding to all sides of the quote */
+  padding-bottom: 20px; /* change the padding on the bottom of the quote to only 20 px. */
+  text-align: left; /* cause the quote text to be aligned along the left */
+}
+
+.quote-credit {
+  text-align: right; /* push the quote credit towards the right side of its container */
+  padding-right: 50px; /* add 50 px of padding between the quote credit and the edge of its container. */
+}
+
+
+
 .bar4 {
   background-color: lightpink;
 }
