@@ -8,6 +8,13 @@ body {
   flex: 1;
 }
 
+/*The section below edits the layout of the top section of the page, bar1 */
+
+.bar1 {/*target bar1 by class */
+  background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
+  height: 300px; /* tell bar1 to take up 300 pixels of vertical space*/
+}
+
 .header{ /*target the header by class. Header contains logo, and list of links */
   display: flex; /*change the display type for the header container to flex. Header has logo and link list as items*/
   height: 70px; /* set the height of the header to 70px */
@@ -90,18 +97,21 @@ ul { /*target unordered list (the links at the type) by type*/
   border-style: solid; /* add a solid border */
   margin: 20px; 
   margin-bottom: 0px; 
-
-
-
 }
+/* ----the section below edits the content in bar2, the second row of information on the page ----*/
 
-.bar1 {/*target bar1 by class */
-  background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
-  height: 300px; /* tell bar1 to take up 300 pixels of vertical space*/
-}
 .bar2 {
   background-color: greenyellow;
+  padding: 20px; /* cause there to be 20 px of space between all the items in bar2 and the edges of the container */
+  padding-bottom: 60px; /* add 60 pixels of padding between the content in the bar2 container and the edge of the container */
 }
+
+.subheading1 { /* target the subheading by class */
+  padding-top: 0px; 
+
+}
+
+/* The section below edits bar3, the second row of information on the page */
 .bar3 {
   background-color: bisque;
 }
