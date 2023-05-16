@@ -145,7 +145,15 @@ ul { /*target unordered list (the links at the type) by type*/
 }
 
 .box { /*target the box of content inside bar4 by class */
-  
+  background-color: aliceblue; /* change the color of the box to make its scope more visible. */
+  display: flex; /* change the display type for box to flex*/
+  align-items: center;
+  padding: 30px; 
 
 }
+
+.smaller-box { /*target the call to action and subtext by class */
+  text-align: left; /* cause the text to align to the left */
+}
+
 
