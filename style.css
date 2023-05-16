@@ -89,6 +89,7 @@ ul { /*target unordered list (the links at the type) by type*/
   flex-direction: column; /* flip the secondary axis and main axis, so the main axis is the vertical axis */
   align-items: center;
   justify-content: space-around;
+
 }
 
 .image { /* target each image placeholder and caption by class */
@@ -100,6 +101,7 @@ ul { /*target unordered list (the links at the type) by type*/
   border-style: solid; /* add a solid border */
   margin: 20px; 
   margin-bottom: 0px; 
+  border-radius: 10px; /*round the corners of the image placeholder boxes*/
 }
 
 
@@ -153,6 +155,7 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the display type for box to flex*/
   align-items: center;
   padding: 30px; /* add 30 px of padding around every item in box and the edges of the container */
+  border-radius: 10px; /* round the corners of the call to action box */
 
 }
 
