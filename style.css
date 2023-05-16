@@ -107,8 +107,8 @@ ul { /*target unordered list (the links at the type) by type*/
 
 .bar2 {
   background-color: greenyellow;
-  padding: 20px; /* cause there to be 20 px of space between all the items in bar2 and the edges of the container */
-  padding-bottom: 60px; /* add 60 pixels of padding between the content in the bar2 container and the edge of the container */
+  padding: 10px; /* cause there to be 10 px of space between all the items in bar2 and the edges of the container */
+  padding-bottom: 40px; /* add 40 pixels of padding between the content in the bar2 container and the edge of the container */
 }
 
 .subheading1 { /* target the subheading by class */
@@ -137,6 +137,7 @@ ul { /*target unordered list (the links at the type) by type*/
 .quote-credit {
   text-align: right; /* push the quote credit towards the right side of its container */
   padding-right: 50px; /* add 50 px of padding between the quote credit and the edge of its container. */
+  margin-bottom: 15px; /* add 15 pixels of space at the bottom of the quote credit */
 }
 
 /* ---- The section below edits bar4, the fourth row of content on the page ---- */
@@ -147,7 +148,7 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the display type for the bar4 container to flex */
   justify-content: center; /* cause the content to center itself horizontally (along the main axis) */
   align-items: center; /* cause the content in bar4 to center itself vertically (along the secondary axis) */
-  height: 200px; 
+  height: 180px; 
 }
 
 .box { /*target the box of content inside bar4 by class */
@@ -166,4 +167,13 @@ ul { /*target unordered list (the links at the type) by type*/
 
 .smallest-box { /* target the box around the sign up button by class */
   margin-left: 50px; /* add 50 pixels of space to the left of the sign up button */
+}
+
+/* ---- This section edits the bar5 section, the footer at the very bottom of the screen ---- */
+
+.bar5 { /* target the footer by class */
+  height: 25px; 
+  display: flex; /* change the display type for bar5 to flex*/
+  justify-content: center; /* cause the content to center itself along the main axis, horizontal */
+  align-items: center; /* cause the content to center itself along the secondary axis, vertical */
 }
