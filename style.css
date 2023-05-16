@@ -176,4 +176,5 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the display type for bar5 to flex*/
   justify-content: center; /* cause the content to center itself along the main axis, horizontal */
   align-items: center; /* cause the content to center itself along the secondary axis, vertical */
+  font-size: 12px; 
 }
