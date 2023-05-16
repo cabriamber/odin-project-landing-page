@@ -15,7 +15,19 @@ body {
   background-color: aqua;/*change the background color for bar 1, to make its boundaries more clearly visible */
   height: 300px; /* tell bar1 to take up 300 pixels of vertical space*/
   background-color: #1F2937;
+  
 }
+
+.heading1 { /* target the main heading by class and add specific stylings */
+  font-size: 36px;
+  font-weight: bolder; 
+  color: #F9FAF8; 
+}
+.subtext1 { /* target the subtext under the main heading by class and adds specific stylings */
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 
 .header{ /*target the header by class. Header contains logo, and list of links */
   display: flex; /*change the display type for the header container to flex. Header has logo and link list as items*/
@@ -24,11 +36,14 @@ body {
   align-items: start; /* cause the items in the header container to push to the beginning of the secondary, vertical axis */
   padding-right: 60px; /* create 60 px of space between the items in the header and its right boundary */
   background-color: #1F2937;
+  
+  
 }
 
 .logo {/*target the logo by class */
   padding: 15px; /* tell the logo to leave 15 pixels of space between itself and the edges of its container */
   padding-left: 60px; /*causes 60 px of padding on the left between the logo and the edge of its container. */
+  color: #E5E7EB; 
 }
 
 ul { /*target unordered list (the links at the type) by type*/
@@ -36,6 +51,7 @@ ul { /*target unordered list (the links at the type) by type*/
   display: flex; /* change the display type for the list to flex*/
   gap: 15px; /* place 10 px of space between each item in the list*/
   margin-left: auto; /* tell the list items to take up all available space on the left of them, as the screen size changes.*/
+  color: #E5E7EB; 
 }
 
 .important-content { /*target the important content container by class. This contains the subcontainer maintext which contains the main heading, subtext, and sign up button, and the subcontainer for the placeholder image x. */
@@ -52,6 +68,7 @@ ul { /*target unordered list (the links at the type) by type*/
   flex-direction: column; /*flip the main and secondary axis, so the main axis is now vertical. */ 
   text-align: left; /* cause the text to align itself with the left side of the container */
   padding: 0px; /*remove padding from the items in the maintext container */
+  
 }
 
 .subtext1,
@@ -66,11 +83,14 @@ ul { /*target unordered list (the links at the type) by type*/
 .signup { /*targets the sign up button at the top of the page by class */
   width: 80px; /* changes the width of the signup button to 80px */
   margin-top: 6px; /* add 6 pixels of space between the subtext and the signup button */
+  color: white; 
+  background-color: #3882F6;
+  border-radius: 5px; /* round the corners of the sign up button */
 }
 
 .main-image { /* target the main image at the top of the page by class */
-  background-color: white;
-  color: black; 
+  background-color:#E5E7EB;
+  color: black;
   width: 250px; 
   height: 180px; 
   display: flex; /* change the display type for the main image placeholder to flex */
@@ -122,7 +142,8 @@ ul { /*target unordered list (the links at the type) by type*/
 /* ----The section below edits bar3, the third row of information on the page ----*/
 
 .bar3 {
-  background-color: bisque;
+  background-color: #E5E7EB;
+  color: #1F2937;
   display: flex; /* change the display type for the bar3 row to flex */
   flex-direction: column; /* flip the main and secondary axis, so the vertical axis is the main axis. */
   margin-left: auto; 
@@ -130,17 +151,20 @@ ul { /*target unordered list (the links at the type) by type*/
 }
 
 .quote { /*target the quote on the third bar of information by class */
-  width: 400px; 
+  /*width: 400px; */
   font-size: 20px;
   padding: 50px; /* add 50 px of padding to all sides of the quote */
   padding-bottom: 20px; /* change the padding on the bottom of the quote to only 20 px. */
   text-align: left; /* cause the quote text to be aligned along the left */
+  font-size: 24px;
+  font-style: italic;
 }
 
 .quote-credit {
   text-align: right; /* push the quote credit towards the right side of its container */
   padding-right: 50px; /* add 50 px of padding between the quote credit and the edge of its container. */
   margin-bottom: 15px; /* add 15 pixels of space at the bottom of the quote credit */
+  font-weight: bold; 
 }
 
 /* ---- The section below edits bar4, the fourth row of content on the page ---- */
@@ -170,6 +194,13 @@ ul { /*target unordered list (the links at the type) by type*/
 
 .smallest-box { /* target the box around the sign up button by class */
   margin-left: 50px; /* add 50 pixels of space to the left of the sign up button */
+}
+.signup2 { /* target second sign up button by class */
+  color: white; 
+  background-color: #3882F6;
+  border-radius: 5px; /* round the corners of the sign up button */
+  padding: 8px; 
+
 }
 
 /* ---- This section edits the bar5 section, the footer at the very bottom of the screen ---- */
